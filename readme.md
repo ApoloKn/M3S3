@@ -3,22 +3,22 @@
 Este es un proyecto web diseñado para presentar una interfaz visual relacionada con rutinas de entrenamiento, haciendo uso de tecnologías web como HTML, CSS y JavaScript.
 
 ## 📁 Estructura del Proyecto
-
+```
 entrenamiento-M3S3/
-├── index.html # Página principal
-├── package.json # Configuración del proyecto y dependencias
-├── .gitignore # Archivos a ignorar en Git
+├── index.html                # Página principal
+├── package.json              # Configuración del proyecto y dependencias
+├── .gitignore                # Archivos a ignorar en Git
 ├── public/
-│ └── database.json # Datos simulados en formato JSON
+│   └── database.json         # Datos simulados en formato JSON
 └── src/
-  ├── css/
-  │ └── main.css # Estilos principales
-  ├── js/
-  │ └── main.js # Lógica JavaScript del sitio
-  └── img/
-    ├── icon.svg
-    └── whatsapp.svg # Iconos e imágenes
-
+    ├── css/
+    │   └── main.css          # Estilos principales
+    ├── js/
+    │   └── main.js           # Lógica JavaScript del sitio
+    └── img/
+        ├── icon.svg
+        └── whatsapp.svg      # Iconos e imágenes
+```
 
 ## 🚀 Tecnologías Utilizadas
 

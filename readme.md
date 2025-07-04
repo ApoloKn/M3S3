@@ -11,13 +11,13 @@ entrenamiento-M3S3/
 ├── public/
 │ └── database.json # Datos simulados en formato JSON
 └── src/
-├── css/
-│ └── main.css # Estilos principales
-├── js/
-│ └── main.js # Lógica JavaScript del sitio
-└── img/
-├── icon.svg
-└── whatsapp.svg # Iconos e imágenes
+  ├── css/
+  │ └── main.css # Estilos principales
+  ├── js/
+  │ └── main.js # Lógica JavaScript del sitio
+  └── img/
+    ├── icon.svg
+    └── whatsapp.svg # Iconos e imágenes
 
 
 ## 🚀 Tecnologías Utilizadas

@@ -1,0 +1,190 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b9cfff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Center the main content and constrain width on larger screens */
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* Style for the form container */
+#form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input fields styling */
+input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus state for inputs */
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Button styling */
+#submit {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#submit:focus {
+  background-color: #2980b9;
+  outline: none;
+}
+
+/* Inventory heading */
+h3 {
+  max-width: 400px;
+  margin: 0 auto 0.5rem auto;
+  color: #2c3e50;
+}
+
+/* Product list styling */
+#product-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #444;
+}
+
+li {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #eef3ff;
+  border: 1px solid #ccd9ff;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li strong {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.delete, .edit {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.delete, .edit {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.delete {
+  background-color: #e74c3c; /* rojo para eliminar */
+  color: white;
+}
+
+.edit {
+  background-color: #3498db; /* azul para editar */
+  color: white;
+}
+
+.delete:hover, .edit:hover {
+  filter: brightness(1.1);
+}
+
+
+footer {
+    margin-top: 25%;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+img {
+    height: 30px;
+}
+
+/* Small devices (phones, 0-599px) */
+@media (max-width: 599px) {
+  body {
+    padding: 15px 10px;
+  }
+
+  #form {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  #submit {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+}
+
+/* Medium devices (tablets, 600px - 899px) */
+@media (min-width: 600px) and (max-width: 899px){
+  #form {
+    max-width: 350px;
+  }
+
+  h1, h3, #product-list {
+    max-width: 350px;
+  }
+}
+
+/* Larger devices (desktop, 900px and above) */
+@media (min-width: 900px) {
+  body {
+    padding: 40px;
+  }
+
+  #form {
+    max-width: 500px;
+  }
+
+  h1, h3, #product-list {
+    max-width: 500px;
+  }
+}
